@@ -1,2 +1,2 @@
 # codeceptJs
-Codecept Challenge
+Codecept ChallengeJS
