@@ -1,0 +1,36 @@
+{
+  "name": "desafioeasynvest",
+  "version": "1.0.0",
+  "description": "Easynvest challenge using CodeceptJS",
+  "main": "api_test.js",
+  "scripts": {
+    "test": "codeceptjs run",
+    "generate-report": "allure generate output",
+    "allure:generate": "allure generate allure-results",
+    "allure:open": "allure open allure-report",
+    "allure:clean": "rm -r allure-results/ allure-report || true"
+  },
+  "keywords": [
+    "codeceptjs",
+    "rest"
+  ],
+  "author": "Vitor Cardoso",
+  "license": "ISC",
+  "devDependencies": {
+    "codeceptjs": "^3.0.7",
+    "eslint": "^7.26.0",
+    "eslint-plugin-codeceptjs": "^1.3.0",
+    "npm-run-all": "^4.1.5",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "@types/node": "^15.3.0",
+    "allure": "0.0.0",
+    "allure-commandline": "^2.13.8",
+    "codeceptjs-expectwrapper": "^1.0.2",
+    "expect": "^26.6.2",
+    "form-data": "^4.0.0",
+    "npm-run-all": "^4.1.5"
+  }
+}
