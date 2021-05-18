@@ -18,9 +18,9 @@ Repositório com testes automatizados realizados em CodeceptJS
 - [Instalar Node.js 14+](https://nodejs.org/)
 
 >Instalar Allure:
-* MacOS: `brew install allure`
-* Windows: `scoop install allure`
-* Linux:
+* [MacOS](https://docs.qameta.io/allure/#_mac_os_x): `brew install allure`
+* [Windows](https://docs.qameta.io/allure/#_windows): `scoop install allure`
+* [Linux](https://docs.qameta.io/allure/#_linux):
     - `sudo apt-add-repository ppa:qameta/allure`
     - `sudo apt-get update`
     - `sudo apt-get install allure`
