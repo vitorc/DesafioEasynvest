@@ -17,6 +17,13 @@ Repositório com testes automatizados realizados em CodeceptJS
 
 - [Instalar Node.js 14+](https://nodejs.org/)
 
+>Instalar Allure:
+* MacOS: `brew install allure`
+* Windows: `scoop install allure`
+* Linux:
+    - `sudo apt-add-repository ppa:qameta/allure`
+    - `sudo apt-get update`
+    - `sudo apt-get install allure`
 
 ## Instalacao
 
@@ -32,14 +39,6 @@ Repositório com testes automatizados realizados em CodeceptJS
 
 `npm install --save`
 
-> Instalar Allure:
-* MacOS: `brew install allure`
-* Windows: `scoop install allure`
-* Linux:
-    - `sudo apt-add-repository ppa:qameta/allure`
-    - `sudo apt-get update`
-    - `sudo apt-get install allure`
-
 ---
 
 ## Como Testar:
@@ -48,7 +47,11 @@ Repositório com testes automatizados realizados em CodeceptJS
 
 `npm run test`
 
-> Gerar Relatório:
+> Executar os testes com geração de relatório automaticamente:
+
+* `npm run test:report`
+
+> Gerar Relatório Manualmente:
 * Criação: `npm run allure:generate`
 * Execução: `npm run allure:open`
 * Obs: Caso precise limpar os relatórios já gerados execute o comando atés dos comandos acima: `npm run allure:clean`
