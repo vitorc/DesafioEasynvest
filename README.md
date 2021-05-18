@@ -1,6 +1,6 @@
 # Desafio Easynvest
 
-Repositório com testes automatizados realizados em CodeceptJS
+Repositório com testes automatizados realizados em CodeceptJS para o desafio da Easynvest
 
 ---
 
