@@ -35,7 +35,7 @@ Repositório com testes automatizados realizados em CodeceptJS
 
 `cd ../DesafioEasynvest`
 
-> Instalar dependências do Node:
+> Instalar dependências:
 
 `npm ci`
 
