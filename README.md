@@ -37,7 +37,7 @@ Repositório com testes automatizados realizados em CodeceptJS
 
 > Instalar dependências do Node:
 
-`npm install --save`
+`npm ci`
 
 ---
 
