@@ -47,7 +47,11 @@ Repositório com testes automatizados realizados em CodeceptJS
 
 `npm run test`
 
-> Gerar Relatório:
+> Executar os testes com geração de relatório automaticamente:
+
+* `npm run test:report`
+
+> Gerar Relatório Manualmente:
 * Criação: `npm run allure:generate`
 * Execução: `npm run allure:open`
 * Obs: Caso precise limpar os relatórios já gerados execute o comando atés dos comandos acima: `npm run allure:clean`
