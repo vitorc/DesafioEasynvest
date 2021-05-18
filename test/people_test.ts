@@ -1,14 +1,19 @@
 export {};
 const { I } = inject();
 
-Feature('Validate Starwars People Endpoint');
+Feature('Validar Endpoint People da API Starwars');
 
-Scenario('Validate People Endpoint Status', async () => {
+Scenario('Validando Status 200 do Endpoint People', async () => {
 	const res = await I.sendGetRequest('/api/people/1/');
 	await I.assertEqual(res.status, 200);
 });
 
-Scenario('Validate People Name', async () => {
+Scenario('Validando campo Nome do Endpoint People', async () => {
 	const res = await I.sendGetRequest('/api/people/1/');
 	await I.assertEqual(res.data.name, "Luke Skywalker");
+});
+
+Scenario('Validando Status 4004 do Endpoint People', async () => {
+	const res = await I.sendGetRequest('/api/people/123123');
+	await I.assertEqual(res.status, 404);
 });
