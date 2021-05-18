@@ -13,7 +13,7 @@ Scenario('Validando campo Nome do Endpoint People', async () => {
 	await I.assertEqual(res.data.name, "Luke Skywalker");
 });
 
-Scenario('Validando Status 4004 do Endpoint People', async () => {
+Scenario('Validando Status 404 do Endpoint People', async () => {
 	const res = await I.sendGetRequest('/api/people/123123');
 	await I.assertEqual(res.status, 404);
 });
