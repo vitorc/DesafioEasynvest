@@ -17,6 +17,13 @@ Repositório com testes automatizados realizados em CodeceptJS
 
 - [Instalar Node.js 14+](https://nodejs.org/)
 
+>Instalar Allure:
+* MacOS: `brew install allure`
+* Windows: `scoop install allure`
+* Linux:
+    - `sudo apt-add-repository ppa:qameta/allure`
+    - `sudo apt-get update`
+    - `sudo apt-get install allure`
 
 ## Instalacao
 
@@ -31,14 +38,6 @@ Repositório com testes automatizados realizados em CodeceptJS
 > Instalar dependências do Node:
 
 `npm install --save`
-
-> Instalar Allure:
-* MacOS: `brew install allure`
-* Windows: `scoop install allure`
-* Linux:
-    - `sudo apt-add-repository ppa:qameta/allure`
-    - `sudo apt-get update`
-    - `sudo apt-get install allure`
 
 ---
 
