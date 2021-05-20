@@ -37,7 +37,7 @@ Repositório com testes automatizados realizados em CodeceptJS para o desafio da
 
 > Instalar dependências:
 
-`npm ci`
+`npm install`
 
 ---
 
