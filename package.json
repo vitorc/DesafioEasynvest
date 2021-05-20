@@ -8,7 +8,7 @@
     "allure:generate": "allure generate allure-results",
     "allure:open": "allure open allure-report",
     "allure:clean": "rm -r allure-results/ allure-report || rd /s /q allure-results/ allure-report || true && mkdir -p allure-results",
-    "test:report":"npm run allure:clean && mkdir -p allure-results && npm run test && npm run allure:generate && npm run allure:open"
+    "test:report":"npm run allure:clean && npm run test && npm run allure:generate && npm run allure:open"
   },
   "keywords": [
     "codeceptjs",
